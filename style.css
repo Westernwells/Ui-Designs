@@ -1,0 +1,144 @@
+:root{
+    --primary:#312c40;
+    --bg:#a62462;
+    --logo:#f476bd;
+}
+body{
+    background-color: #5d294d;
+}
+.container{
+background-color:var(--bg);
+width:1000px;
+margin:0 auto;
+box-shadow: 5px 5px 5px 5px #301125;
+}
+.nav{
+background-color: var(--primary);
+display:flex;
+justify-content:space-between;
+align-items: center;
+font-family:"lato", sans-serif;
+box-shadow: 0 5px 3px  #352339;
+
+}
+.rightNav ul{
+display:flex;
+
+}
+.rightNav ul li{
+    list-style: none;
+    margin:0 10px;
+    
+}
+.rightNav ul li a{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+
+.midNav{
+color:var(--logo);
+}
+.leftNav ul{
+display: flex;
+}
+.leftNav ul li{
+    list-style: none;
+    margin:0 10px;
+    
+}
+.leftNav ul li a{
+    background-color:white;
+    color:var(--primary);
+    border-radius: 10px;
+    padding:5px 8px;
+}
+.landing{
+    display:grid;
+    grid-template-columns: 10% 90%;
+}
+.socialLinks{
+    color:white;
+    align-self: flex-end;
+    justify-self: flex-start;
+    
+}
+.socialLinks ul{
+    /* margin:0; */
+}
+.socialLinks ul li{
+    list-style: none;
+}
+/* .landing::after{
+    content: "lovely";
+    position: relative;
+    right:0;
+    bottom:0;
+    background-color: green;
+    height:100px;
+    width:200px;
+} */
+.main{
+    position: relative;
+display: grid;
+grid-template-columns: 30% 60%;
+grid-column-gap: 10px;
+color:white;
+justify-content: center;
+grid-column-gap: 20px;
+/* font-family:'lato', sans-serif; */
+font-family: 'Montserrat', sans-serif;
+padding:0 20px;
+}
+.main img{
+width:100%;
+height:400px;
+box-shadow: 5px 0  #28192e, -5px 0 #28192e;
+}
+.main-text{
+
+}
+.m-header{
+font-size:26px;
+}
+.m-sub{
+    font-size:22px;
+}
+.browse{
+    width:300px;
+    font-size:24px;
+    padding:10px 8px;
+    background-color: white;
+    color:var(--primary);
+    border-radius: 20px;
+    border:none;
+}
+.cart{
+    /* border-right:10px solid green; */
+    /* border-left:10px solid green; */
+    width:30px;
+    height:30px;
+    border-top:10px solid var(--primary);
+    padding-bottom: 10px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-right:10px solid var(--primary);
+    border-bottom-right-radius: 50% solid var(--primary);
+    border-bottom-left-radius: 50% solid var(--primary);
+    background-color: var(--primary);
+    border-left:10px solid var(--primary);
+    position:absolute;
+    right:0;
+    bottom:0;
+    text-align: center;
+    /* border-bottom:20px solid green; */
+    /* border-bottom: 10px solid green; */
+}
+span .fas{
+    font-size:20px;
+}
+span p{
+    margin:0;
+    font-size: 10px;
+}
